@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@100;200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+}
+
+.top{
+    background-color: rgb(18, 25, 33);
+    height: 58px;
+    display: flex;
+}
+
+.amazon-logo{
+    padding-left: 12px;
+    padding-top: 15px;
+    
+
+}
+
+
+.location-logo{
+    /* position:static; */
+    padding-left: 18px;
+    padding-top: 28px;
+}
+
+.location-sub{
+    margin-top: -8px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    width: 130px;
+    
+}
+
+.adress{
+    /* display: flex; */
+    position: relative;
+    top: -29px;
+;
+  
+}
+
+
+.search-bar{
+    padding-top: 8px;
+    padding-left: 30px;
+    
+}
+
+input{
+    width: 51rem;
+    height: 40px;
+    border-radius: 10px;
+
+}
+#all{
+    height: 44px;
+    width: 48px;
+    position: relative;
+    top: -44px;
+    left:1px;
+    border-radius: 10px 0px 0px 10px;
+    /* border: 1px solid red; */
+    
+}
+
+button{
+    background-color: rgb(251, 190, 103);
+    position: absolute;
+    right: 24rem;
+    top: 9.5px;
+    height: 43px;
+    width: 55px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.dropdown-2{
+    /* border: 1px solid red; */
+    margin-top: 17px;
+    padding-left: 10px;
+    
+}
+
+#flag{
+    position: relative;
+    bottom: 4px;
+    /* background-color: aqua; */
+}
+
+#flag{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.sign-in{
+    /* border: 1px solid red; */
+    color: white;
+    width: 130px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.lists{
+    position: relative;
+    bottom: 30px;
+    width: 160px;
+    margin-bottom: -41px;
+    
+}
+#lists{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.all-lists{
+    
+    /* border: 1px solid red; */
+    margin-top: -10px;
+
+
+}
+.return h5 {
+        margin-bottom: -25px;
+}
+
+.return{
+    color: white;
+    margin-left: 25px;
+    margin-top: -10px;
+
+}
+.cart{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.cart h4{
+    position: relative;
+    top: -9px;
+}
+
+.second-main{
+    background-color: rgb(36, 48, 64);
+    height: 34px;
+    display: flex;
+
+}
+
+.sm-first{
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 1000px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.sm-second{
+    display: flex;
+    color: #fff;
+    /* border: 1px red solid; */
+    margin-left: 80px;
+
+}
+.sm-second h3{
+    position: relative;
+    top: -23px;
+}
+.hw{
+    position: relative;
+    left: -94px;
+    top: 15px;
+}
+.prime-day{
+    margin-top: -20px;
+    /* border: 1px solid red; */
+}
+.sm-arrow{
+    position: relative;
+    /* left: 70px; */
+}
+.hh{
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+    font-size: 12px;
+}
+.main-content{
+    background-image: url("/assets/background\ picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0px 10px; 
+}
+
+.arrow{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding: 200px 0px;
+    margin: 0px -500px;
+    
+
+}
+
+
+.first-collage{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.second-collage{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.third-collage{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.fourth-collage{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.collages{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.first-line{
+    display: flex;
+}
+.second-line{
+    display: flex;
+}
+.first-line2{
+    display: flex;
+}
+.second-line2{
+    display: flex;
+}
+.invert{
+    transform: scaleX(-1);
+}
+
+
+
